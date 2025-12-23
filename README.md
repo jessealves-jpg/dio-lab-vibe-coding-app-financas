@@ -1,8 +1,16 @@
-# 💸 App de Organização de Finanças Pessoais Jessé Alves com Vibe Coding
 
- PRD refinado no Copilot Web:
+---
 
- ```markdown
+# 💸 App de Organização de Finanças Pessoais  
+**Jessé Alves com Vibe Coding**
+
+Este projeto foi desenvolvido como um desafio de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+
+---
+
+## 📄 PRD Refinado no Copilot Web
+
+```markdown
 # PRD - App de Organização Financeira com Conversa Natural
 
 ## Visão Geral
@@ -30,7 +38,7 @@ Isso inclui:
 - Navegação simples e sem sobrecarga de informações
 - Compatibilidade com leitores de tela e comandos por voz
 - Feedbacks visuais e auditivos para facilitar o uso
-- O usuario tera que acessar o app por meio de logim e senha
+- O usuário terá que acessar o app por meio de login e senha
 
 ## Entregável da IA
 Gerar um plano de MVP contendo:
@@ -39,34 +47,36 @@ Gerar um plano de MVP contendo:
 - Estratégia de validação inicial com usuários reais
 - Linguagem acessível e tom educativo, em português
 - Aplicação dos princípios de Design Universal desde o protótipo
+```
 
- ```
-Interações com o Lovable:
+---
 
-> Crie um App de Finaças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+## 🎬 Interações com o Lovable
 
-> Não esta registrando as informações de gastos e benefícios recebidos. E no campo perfil não tem como editar as informações dos usuários ou acessar os campos de configurações. O modo escuro não ativa
+> Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}  
+> Não está registrando as informações de gastos e benefícios recebidos. E no campo perfil não tem como editar as informações dos usuários ou acessar os campos de configurações. O modo escuro não ativa.  
+> Corrija o valor das variáveis lançadas. EX: Eu digito que recebi a quantia de 5.000 e ele contabiliza apenas 5,00. Quero que zere todos os valores para a partir de agora eu efetuar todos os lançamentos tanto de crédito quanto de débitos.  
+> Corrija o campo metas. Habilitando os campos para edição de valores, ou exclusão do campo metas, e habilite o campo criar novas metas. No chat não fica salvo os lançamentos quando eu saio da tela chat e retorno para ela não tem os últimos lançamentos que eu digitei. Não está contabilizando os lançamentos que estão realizando, isso precisa ser corrigido. O saldo está zerado toda vez que eu digitar um valor de crédito tem que atualizar meu saldo, toda vez que eu digitar um valor referente a gasto, tem que abater do saldo.  
 
-> Corrija o valor das variáveis ​​lançadas. EX: Eu dígito que recebi a quantia de 5.000 e ele contabiliza apenas 5,00. Quero que zere todos os valores para a partir de agora eu efetuar todos os lançamentos tanto de crédito quanto de débitos.
+### Correções solicitadas:
+- Habilitar a função: Alterar senha  
+- Não deixar o valor estipulado da meta (o usuário é quem define)  
+- Transferências para metas devem ser abatidas do saldo atual  
+- Criar relatórios de gastos por categoria e transações recentes  
+- Informar saídas de metas com ícone específico  
+- No campo editar meta: apenas informar o valor desejado, sem obrigatoriedade de valor atual  
+- Ajustar tela de login: manter frase “Organize suas finanças com conversas simples” com menos ênfase e adicionar nome fixo do app  
+- Nome do App: **MetaCash**  
+- Criar campo mostrando valor total aplicado (saldo + metas)  
+- Criar aba de entradas e saídas: semanal, mensal e anual  
 
-> Corrija o campo metas. Habilitando os campos para edição de valores, ou exclusão do campo metas, e habilite o campo criar novas metas. No chat não fica salvo os lançamentos quando eu saio da tela chat e retorna para ela não tem os últimos lançamentos que eu digitei. Não esta contabilizando os lançamentos que estão realizando isso precisa ser corrigido. O saldo está zerado toda vez que eu digitar um valor de crédito tem que atualizar meu saldo, toda vez que eu digitar um valor referente a gasto, tem que abater do saldo.
+📌 **Resultado final no Lovable:**  
+👉 [fala-dinheiro-facil.lovable.app](https://fala-dinheiro-facil.lovable.app)
 
-> -preciso que realize algumas correções no app:
-- habilite a função: Alterar senha
-- Não deixe o valor estipulado da meta. (o usuário é quem vai estipular o valor de cada meta)
-- O valor que o usuário vai transferir para o campo minhas metas deve ser abatido do salto atual quando ele fizer a transação para a meta que ele escolher transferir.
-- Criar um campo de relatórios mostrando gastos por categoria e um mostrando as transações recentes.
-- Quando um valor for abatido de qualquer meta informe no campo metas um ícone com o valor de saida e o ícone tera que ter o nome de Saídas Metas.
-- No campo editar meta: Não obrigue o usuário a já informar um valor atual, O usuário vai apenas informar o valor que deseja alcançar para a meta seja ela qual for.
-- Na tela de login e senha contém um nome Organize suas finanças com conversas simples. Quero mantê-lo mas de menos enfase nele. Acima dele cria um nome fixo para o app.
-- O nome do App será MetaCash
-- crie um campo mostrando o valor total aplicado no app, EX: O valor total transferido para cada meta somado com o valor do saldo atual.
-- crie uma aba onde mostrar o valor de entrada e saidas: semanalmente, mensalmente e anualmente
-
-Resultado final no Lovable: https://fala-dinheiro-facil.lovable.app
-
-<img width="1911" height="917" alt="image" src="https://github.com/user-attachments/assets/4698d91b-5f29-4269-8f6c-aacf510c6029" />
+<img width="1911" height="917" alt="image" src="https://github.com/user-attachments/assets/4698d91b-5f29-4269-8f6c-aacf510c6029" />  
 <img width="1313" height="850" alt="image" src="https://github.com/user-attachments/assets/a9c286ea-dde5-4500-bff1-099e1d5a9051" />
+
+---
 
 # 📱 App de Organização Financeira com Conversa Natural
 
@@ -108,36 +118,31 @@ Este app resolve isso com uma experiência conversacional fluida e recomendaçõ
 ---
 
 ## 🧭 Estrutura de Navegação
-- **Resumo**: visão geral das finanças (saldo, entradas, saídas).  
-- **Chat**: registro de gastos e interação com o assistente.  
-- **Metas**: definição e acompanhamento de objetivos financeiros.  
-- **Relatórios**: análises detalhadas e personalizadas.  
-- **Perfil**: dados do usuário e configurações.
+- **Resumo**: visão geral das finanças (saldo, entradas, saídas)  
+- **Chat**: registro de gastos e interação com o assistente  
+- **Metas**: definição e acompanhamento de objetivos financeiros  
+- **Relatórios**: análises detalhadas e personalizadas  
+- **Perfil**: dados do usuário e configurações  
 
 ---
 
 ## 🧠 Recursos Técnicos
-- Processamento de Linguagem Natural (NLP).  
-- Motor de categorização automática de transações.  
-- Sistema de recomendações personalizadas.  
-- Autenticação segura com login e senha.
+- Processamento de Linguagem Natural (NLP)  
+- Motor de categorização automática de transações  
+- Sistema de recomendações personalizadas  
+- Autenticação segura com login e senha  
 
---- 
-## Reflexão
+---
 
+## 📝 Reflexão
 
- ### O que funcionou bem?  
- O refinamento do PRD previamente elaborado no Copilot ajudou muito, pois os creditos para usufluir gratuitamente acaba em poucas interações
+### O que funcionou bem?  
+O refinamento do PRD previamente elaborado no Copilot ajudou muito, pois os créditos para usufruir gratuitamente acabam em poucas interações.  
 
- ### O que não funcionou como o esperado?  
- Esperava poder intetarir bem mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender Vibe Coding.
- 
- ###O que aprendeu sobre conversar com IAs?
- Quanto mais detalhes você fornece a IA, ela te da a sensação de estar na mesma linha de raciocinio e executa a tarefa com maestria trazendo o resultado melhor do que é esperado. A interação é identica a humana.
+### O que não funcionou como o esperado?  
+Esperava poder interagir bem mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender Vibe Coding.  
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+### O que aprendeu sobre conversar com IAs?  
+Quanto mais detalhes você fornece à IA, ela dá a sensação de estar na mesma linha de raciocínio e executa a tarefa com maestria, trazendo resultados melhores do que o esperado. A interação é idêntica à humana.  
 
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+---
